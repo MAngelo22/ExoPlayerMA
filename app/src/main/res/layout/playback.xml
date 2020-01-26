@@ -29,34 +29,38 @@ limitations under the License.
 
         <ImageButton
             android:id="@id/exo_prev"
+            android:src="@drawable/boton1"
+            android:scaleType="fitXY"
             style="@style/ExoMediaButton.Previous" />
 
         <ImageButton
             android:id="@id/exo_rew"
+            android:src="@drawable/boton2"
+            android:scaleType="fitXY"
             style="@style/ExoMediaButton.Rewind" />
 
         <ImageButton
-            android:id="@id/exo_shuffle"
-            style="@style/ExoMediaButton.Shuffle" />
-
-        <ImageButton
-            android:id="@id/exo_repeat_toggle"
-            style="@style/ExoMediaButton" />
-
-        <ImageButton
             android:id="@id/exo_play"
+            android:src="@drawable/boton3"
+            android:scaleType="fitXY"
             style="@style/ExoMediaButton.Play" />
 
         <ImageButton
             android:id="@id/exo_pause"
+            android:src="@drawable/boton4"
+            android:scaleType="fitXY"
             style="@style/ExoMediaButton.Pause" />
 
         <ImageButton
             android:id="@id/exo_ffwd"
+            android:src="@drawable/boton5"
+            android:scaleType="fitXY"
             style="@style/ExoMediaButton.FastForward" />
 
         <ImageButton
             android:id="@id/exo_next"
+            android:src="@drawable/boton6"
+            android:scaleType="fitXY"
             style="@style/ExoMediaButton.Next" />
     </LinearLayout>
 
